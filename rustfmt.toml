@@ -1,0 +1,7 @@
+max_width = 110
+hard_tabs = false
+tab_spaces = 2
+newline_style = "Unix"
+reorder_imported_names = true
+wrap_comments = true
+normalize_comments = true

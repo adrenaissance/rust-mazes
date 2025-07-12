@@ -1,0 +1,4 @@
+[package]
+name = "template"
+author = "Alex D'agostino Aleksandrov"
+edition = "2024"
