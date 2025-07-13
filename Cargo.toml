@@ -1,4 +1,14 @@
 [package]
-name = "template"
-author = "Alex D'agostino Aleksandrov"
+name = "rust-mazes"
+authors = ["Alex D'agostino Aleksandrov"]
 edition = "2024"
+rust-version = "1.88"
+
+[dependencies]
+nalgebra = { version = "0.33" }
+strum = { version = "0.27", features = ["derive"] }
+rand = { version = "0.8" }
+bon = { version = "3.6" }
+
+[dev-dependencies]
+proptest = { version = "1.7" }
