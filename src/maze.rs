@@ -97,7 +97,7 @@ pub fn generate(
             if grid[(next.x, next.y)].status == CellStatus::NotVisited {
                 carve_path(grid, current, next, dir);
 
-                // Find path from start to end *after* carving path
+                // Find path from start to end after carving path
                 let path = find_path(grid, start, end);
 
                 // Clear screen and redraw with path visualization
